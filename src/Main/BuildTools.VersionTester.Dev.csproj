@@ -75,6 +75,12 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Tamu.GeoInnovation.Common.Core.Files">
+      <HintPath>..\..\libs\Tamu.GeoInnovation.Common.Core.Files.dll</HintPath>
+    </Reference>
+    <Reference Include="Tamu.GeoInnovation.Common.Core.Forms">
+      <HintPath>..\..\libs\Tamu.GeoInnovation.Common.Core.Forms.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -107,18 +113,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\Common.Core.Files\Src\Main\Common.Core.Files.Dev.csproj">
-      <Project>{0FF43F5C-9E8B-4010-A805-8C54EF43E511}</Project>
-      <Name>Common.Core.Files.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Forms\Src\Main\Common.Core.Forms.Dev.csproj">
-      <Project>{EB017D59-1F59-45B1-9EA1-7BACA02E55DB}</Project>
-      <Name>Common.Core.Forms.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
